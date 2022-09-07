@@ -29,31 +29,30 @@ nav {
 
 @keyframes top {
   from {
-    transform: rotate(0deg);
-    transform-origin: left;
+      
   }
   to {
-    transform: rotate(50deg);
-    transform-origin: left;
+      transform: translateY(35px) rotate(45deg);
   }
 }
 
 @keyframes middle {
-  from {
-    opacity: 1
+  from { 
+      opacity: 1;
+
   }
   to {
-    opacity: 0;
+      opacity: 0;
+
   }
 }
 
 @keyframes bottom {
-  from {
-    transform: rotate(0deg);
-    transform-origin: left;
+  from{
+
   }
   to {
-    transform: rotate(-50deg);
-    transform-origin: left;
+      transform: translateY(-33px) rotate(-45deg);
   }
+  
 }

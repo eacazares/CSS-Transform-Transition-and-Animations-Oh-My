@@ -1,4 +1,6 @@
 main {
-    transform: skew(0deg, -10deg);
+    transform:
+    skewY(345deg)
+    translateY(-41px);
 }
 
